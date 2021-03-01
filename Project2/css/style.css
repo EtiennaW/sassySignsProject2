@@ -54,32 +54,79 @@ p{
 ul{
   list-style: none;
 }
+a{
+	text-decoration: none;
+}
 #logoImg{
-  width:50%;
-  height:50%;
+  width:55%;
+  height:55%;
+}
+#logo{
+  margin-left:16%;
 }
 .sectionBar{
   background-color:#FAE051;
+  text-align: center;
 }
 .nav{
   background-color:#0090A3;
+  width:6%;
   color:white;
   text-decoration:none;
   padding:1%;
-  margin:1%;
+  margin:6%;
+  margin-left:11%;
+  display:inline;
+
+}
+#navContainer{
 
 }
 .catagoryContainer{
   display:flex;
-  flex-flow: column;
+	align-content: space-around;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding:2%
+	margin:2%;
+	margin-left:2%;
+	margin-right:2%;
+}
+#navCatalogContainer{
+	text-align: center;
+	padding:1%;
 }
 #headerContainer{
   display: flex;
-  flex-flow: column;
-  align-items: center;
-
+  justify-content:center;
+  margin-left:10%;
+  padding:1.3%;
+}
+#aboutUsContainer{
+	display:flex;
+	flex-direction: column;
+	text-align: center;
+	padding:5%;
+	margin: 2%;
 }
 #aboutUsImg{
   width:35%;
   height:35%;
+	margin-left:32%;
+	padding:1%;
+}
+#birthdaySigns,#sportsSigns,#celebrateSigns,#holidaySigns,#babySigns,#numberSigns,#miscellaneousSigns{
+	text-align: center;
+	margin:2%;
+	padding:2%
+}
+.catalogImagesContainer{
+	width:23%;
+	height:23%;
+	display:inline;
+	margin-left: 10%;
+}
+.contactCustomContainer{
+	margin:8%;
+
 }
