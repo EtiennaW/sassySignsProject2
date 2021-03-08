@@ -82,16 +82,7 @@ a{
 #navContainer{
 
 }
-.catagoryContainer{
-  display:flex;
-	align-content: space-around;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	padding:2%
-	margin:2%;
-	margin-left:2%;
-	margin-right:2%;
-}
+
 #navCatalogContainer{
 	text-align: center;
 	padding:1%;
@@ -116,17 +107,107 @@ a{
 	padding:1%;
 }
 #birthdaySigns,#sportsSigns,#celebrateSigns,#holidaySigns,#babySigns,#numberSigns,#miscellaneousSigns{
-	text-align: center;
+	text-align:center;
 	margin:2%;
 	padding:2%
 }
 .catalogImagesContainer{
 	width:23%;
 	height:23%;
-	display:inline;
-	margin-left: 10%;
+
+}
+.catalogImagesTD{
+	width:40%;
+	margin-left:5%;
+
+
 }
 .contactCustomContainer{
 	margin:8%;
 
+}
+#formFormat{
+	width:30%;
+	height:800%;
+
+}
+input{
+	width:150%;
+	height:900%;
+
+}
+/*.catagoryContainer{
+	font-family: 'Lobster Two', cursive;
+  display:flex;
+	align-content: space-around;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding:2%
+	margin:2%;
+	margin-left:2%;
+	margin-right:2%
+
+	}*/
+
+.textOverImage{
+ display:inline-block;
+ position: relative;
+
+}
+.textOverImage a{
+	position:absolute;
+	bottom:4em;
+	left:3em;
+	padding:1em 1.5em;
+}
+.catagoryImages{
+	width:70%;
+	padding:10%;
+	margin-left: 10%;
+	margin-right:-10%;
+}
+
+#catagorytextBirthday,#catagoryTextBaby{
+
+	margin-left:35%;
+}
+#BalloonTextOverImage{
+	width:60%;
+	font-size:2em;
+}
+
+#catagorytextSport,#catagorytextCelebrate,#catagoryTextNumber{
+
+	margin-left:40%;
+}
+
+#SportsTextOverImage,#BottletextOverImage,#HolidaytextOverImage{
+	width:93%;
+	font-size:2em;
+}
+#catagoryTextHoliday{
+	margin-left:30%;
+}
+
+#BabytextOverImage{
+	width:110%;
+	font-size:2em;
+}
+#NumbertextOverImage{
+	width:50%;
+	font-size:2em;
+	margin-left: 20%;
+}
+
+#RandomtextOverImage{
+	width:70%;
+	font-size:2em;
+	margin-left:100%;
+}
+#catagoryTextRandom{
+	margin-left:30%;
+}
+
+table{
+	font-family: 'Lobster Two', cursive;
 }
